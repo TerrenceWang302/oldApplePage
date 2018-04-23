@@ -1,0 +1,204 @@
+/**********************
+General
+***********************/
+.middle {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.floatL {
+    float: left;
+}
+
+/**********************
+Top header
+***********************/
+header {
+    height: 538px;
+    background-image: url(../images/your_verse_hero.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+nav {
+    max-width: 960px;
+    padding-top: 25px;
+}
+
+nav ul {
+    max-width: 840px;
+    min-width: 840px;
+}
+
+nav li {
+    background-color: #777;
+    border-right: 1px solid #3b3b3b;
+    float: left;
+}
+
+nav img {
+    width: 19px;
+    height: 19px;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 10px 37px;
+}
+
+nav a:hover,
+nav li:hover {
+    background-color: #3b3b3b;
+}
+
+nav li:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+nav li:first-child a {
+    padding: 6px 40px;
+}
+
+nav div {
+    max-width: 120px;
+    min-width: 120px;
+    float: left;
+}
+
+nav form {
+    background-color: #777;
+    color: #fff;
+    padding: 3px 0 4px 14px;
+    box-sizing: border-box;
+    border-radius: 0 5px 5px 0;
+}
+
+nav form i {
+    border: 1px solid #c2c2c2;
+    padding: 4px 0 2px 5px;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    font-size: 10px;
+}
+
+nav input {
+    width: 70px;
+    background-color: #777;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #c2c2c2;
+    border-left: none;
+    height: 14px;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 4px auto;
+}
+
+header section {
+    clear: both;
+    width: 50%;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 80px;
+}
+
+header section a {
+    color: #fff;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: 200;
+    line-height: 100px;
+}
+
+header h2 {
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 35px;
+}
+
+header section a:last-child {
+    display: block;
+    width: 800px;
+    height: 30px;
+    background-image:url(../images/cta_your_verse_27pt.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    margin-top: 20px;
+}
+
+/**********************
+Featured
+***********************/
+.banner {
+    margin-top: 2px;
+}
+
+.banner li {
+    max-width: 25%;
+    float: left;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/**********************
+Footer
+***********************/
+footer {
+    clear: both;
+    max-width: 960px;
+    min-width: 960px;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    line-height: 20px;
+    padding-top: 20px;
+}
+
+footer a {
+    color: #45a8da;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    float: left;
+}
+
+footer ul {
+    float: right;
+}
+
+footer ul li {
+    float: left;
+    border-right: 1px solid #3b3b3b;
+    padding: 0;
+}
+
+footer ul a {
+    display: inline-block;
+    padding: 0 4px;
+}
+
+footer ul li:last-child {
+    border-right: none;
+}
+
+footer span {
+    border-right: 1px solid #3b3b3b;
+    padding-right: 4px;
+}
+
+footer span:last-child {
+    border-right: none;
+}

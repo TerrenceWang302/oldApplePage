@@ -1,0 +1,1 @@
+This is a recreation of an old apple website to practice layout techniques.
